@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.top{
+    height: 60px;
+    background-color:#262626;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+}
+.top .top_a{
+    color: white;
+    padding: 10px 20px;
+    background-color:#82b440;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size:14px ;
+  
+    
+}
+.container{
+    height:700px;
+    padding-top: 60px;
+    background: url(alaksiej-carankievic-JBDYs80RTcs-unsplash.jpg) no-repeat scroll center / cover;
+}
+.header{
+    display: flex;   
+    height: 120px;                                                                                                            
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 100px ;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.header ul a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 0px 20px;
+}
+.header_a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.box{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around; 
+      
+}
