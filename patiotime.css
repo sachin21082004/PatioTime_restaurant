@@ -15,7 +15,7 @@
     position: fixed;
     width: 100%;
     top: 0px;
-    z-index: 1;
+    z-index: 4;
 }
 .top .top_a{
     color: white;
@@ -189,4 +189,48 @@ span{
 }
 .section11 h1,.section11 h3,.section11 p{
     padding-bottom: 16px;
+}
+.section12{
+    width: 85%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section121,.section121s{
+    width: 350px;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+
+    
+}
+
+.section121 img,.section121s img{
+    width: 100%;
+    height: 450px;
+    box-shadow: 2px 2px 4px grey;
+    margin-bottom: 18px;
+    transition: transform 0.5s;
+    z-index:1;
+    
+}
+.section121 img:hover,.section121s img:hover{
+    transform: translateY(-10px);
+}
+ .section121s::before{
+    content: "";
+    position: absolute;
+    background: url(petiopic/new-label.png) no-repeat scroll center / cover;
+    height: 23px;
+    width: 42px;
+    top: -12px;
+    left: -20px;
+    z-index: 2;
+    border-radius: 10px;
+}
+.section121 h3{
+
 }
