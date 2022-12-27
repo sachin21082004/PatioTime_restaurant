@@ -200,7 +200,7 @@ span{
     
 }
 .section121,.section121s{
-    width: 350px;
+    width: 335px;
     margin: 30px;
     text-align: center;
     position: relative;
@@ -210,8 +210,8 @@ span{
 
 .section121 img,.section121s img{
     width: 100%;
-    height: 450px;
-    box-shadow: 2px 2px 4px grey;
+    height: 430px;
+    box-shadow: 4px 4px 8px grey;
     margin-bottom: 18px;
     transition: transform 0.5s;
     z-index:1;
@@ -229,8 +229,54 @@ span{
     top: -12px;
     left: -20px;
     z-index: 2;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-.section121 h3{
+.section2{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(petiopic/mads-eneqvist-zqiE16q_Ju0-unsplash.jpg) no-repeat scroll center / cover;
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+    
+}
+.section2 img,.section2 h1,.section2 h3,.section2 ul{
+    width: 700px;
+    margin: 0px auto;
+}
+.section2 h1{
+    font-size: 54px;
+}
+.section2 h3{
+    color: #DD5903;
+}
 
+.section2 ul{
+    width:900px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #DD5903;
+    padding-left: 65px;
+    margin: 80px auto;
+}
+.section2 ul li{
+    margin: 0px 60px;
+}
+.same{
+    position: relative;
+    z-index: 2;
+}
+.same .chokor,.same .rotet{
+    position: absolute;
+    z-index: 3;
+    top: -20px;
+    left: -75px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #DD5903;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
