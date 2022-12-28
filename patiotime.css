@@ -236,11 +236,26 @@ span{
     text-align: center;
     padding: 50px 0px;
     color: white;
+    position: relative;
     
 }
 .section2 img,.section2 h1,.section2 h3,.section2 ul{
     width: 700px;
     margin: 0px auto;
+}
+.section2 img{
+    
+    z-index: 3;
+}
+.secction2:after{
+    content: "";
+    position: absolute;
+    background: url(petiopic/click-circle-2\ -\ Copy.png) no-repeat scroll center / cover;
+    top: -20px;
+    right: 100px;
+    width: 80px;
+    height: 80px;
+    z-index: 4;
 }
 .section2 h1{
     font-size: 54px;
@@ -323,9 +338,18 @@ span{
 }
 .section32{
     width: 45%;
-    margin-left: 20px;
+    margin: 0px 30px;
 }
 .section3 .section32 img{
     width: 100%;
     
+}
+.section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section41{
+    margin: 0px 20px;+.
 }
