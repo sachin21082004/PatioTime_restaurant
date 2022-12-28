@@ -280,3 +280,52 @@ span{
     align-items: center;
     justify-content: center;
 }
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50px;
+}
+.section31{
+    width: 30%;
+    margin-right: 20px;
+}
+.section31 h3{
+    color: #DD5903;
+}
+.section31 h1{
+    font-size: 61px;
+}
+.section31 h1,.section31 h3,.section31 p{
+    padding-bottom: 10px;
+}
+.section31 ul{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.section31 ul li{
+    position: relative;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.section31 ul li::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -20px;
+    width:10px;
+    height: 10px;
+    border: 1px solid #DD5903;
+
+}
+.section32{
+    width: 45%;
+    margin-left: 20px;
+}
+.section3 .section32 img{
+    width: 100%;
+    
+}
